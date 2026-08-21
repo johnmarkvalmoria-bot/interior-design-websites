@@ -395,21 +395,3 @@
         
 }
 
-.back-home {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #1a1a1a;
-    color: #ffffff;
-    text-decoration: none;
-    font-family: inherit;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    border-radius: 4px;
-    margin: 20px 0;
-    transition: background-color 0.2s ease;
-}
-
-.back-home:hover {
-    background-color: #333333;
-}
