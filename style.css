@@ -392,4 +392,25 @@
 .member p {
     margin: 0;
     color: #333;
+        
+}
+
+.back-home {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 22px;
+    background: #1e3a5f;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.back-home:hover {
+    background: #fff;
+    color: #1e3a5f;
+    border: 2px solid #1e3a5f;
+    transform: translateY(-2px);
 }
