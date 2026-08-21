@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Designs</title>
+
+    <!-- FIXED: Removed "../" because index.html is in the root folder -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="logo">INTERIOR DESIGNS</div>
+        <!-- FIXED: Points to html/ folder for subpages -->
+        <a href="index.html">HOME</a>
+        <a href="livingroom.html">LIVING ROOM</a>
+        <a href="html/bedroom.html">BEDROOM</a>
+        <a href="kitchen.html">KITCHEN</a>
+        <a href="about.html">ABOUT US</a>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+       
+      <div class="main-image">
+            <img src="home.jpg">
+        </div>
+
+        
+
+        <div class="text">
+            <div class="small">INTERIOR DESIGN THAT INSPIRES</div>
+            <h1>
+                CREATE<br>
+                YOUR<br>
+                <span>DREAM</span><br>
+                HOME
+            </h1>
+            <p>
+                Where beautiful design meets comfort.
+                Get ideas and inspiration for your
+                perfect home.
+            </p>
+            <a href="#gallery" class="explore">EXPLORE DESIGNS →</a>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery">
+        <h2>EXPLORE OUR INTERIORS</h2>
+
+    
+
+        <div class="cards">
+
+            <div class="card">
+                <!-- FIXED: Updated path to images folder -->
+                <img src="livingroom.jpg" alt="Living Room">
+                <h3>Living Room</h3>
+                <p>Warm. Inviting. Comfortable.</p>
+            </div>
+
+            <div class="card">
+                <!-- FIXED: Added missing image tag -->
+                <img src="bedroom.jpg" alt="Bedroom">
+                <h3>Bedroom</h3>
+                <p>Calm. Cozy. Relaxing.</p>
+            </div>
+
+            <div class="card">
+                <!-- FIXED: Fixed image path -->
+                <img src="kitchen.jpg" alt="Kitchen">
+                <h3>Kitchen</h3>
+                <p>Modern. Functional. Stylish.</p>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
